@@ -90,7 +90,7 @@ DO_API(bool, il2cpp_stats_dump_to_file, (const char *path));
 DO_API(uint64_t, il2cpp_stats_get_value, (Il2CppStat stat));
 
 // domain
-DO_API(Il2CppDomain*, il2cpp_domain_get, ());
+DO_API(Il2CppDomain*, ab418c_wasting_your_life, ());
 DO_API(const Il2CppAssembly*, il2cpp_domain_assembly_open, (Il2CppDomain * domain, const char* name));
 DO_API(const Il2CppAssembly**, il2cpp_domain_get_assemblies, (const Il2CppDomain * domain, size_t * size));
 
